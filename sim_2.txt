@@ -1,0 +1,11 @@
+090010  	        READ A
+090011  	        READ B
+041010  	        MOVER AREG A
+061011  	        COMP AREG B
+071008              BC GT LA
+100011 	        PRINT B
+076009              BC ANY OVER
+100010              LA PRINT A
+000000  OVER STOP
+
+
